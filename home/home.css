@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url(https://images5.alphacoders.com/108/thumb-1920-1081209.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 1000px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 160px;
+  width: 1300px;
+  
+
+  top: 0px;
+  margin: 0;
+  padding: 0;
+
+}
+.begin{
+  position: absolute;
+  visibility: hidden;
+  z-index: 1;
+  width: 100px;
+  height: 190px;
+  rotate: 90deg;
+  animation: rocket 2s 1;
+}
+
+@keyframes rocket {
+  0%{
+    visibility: visible;
+    left: 0;
+  }
+  100%{
+    left: 2000px;
+  }
+}
+
+
+.box{
+  position: relative;
+  left: 300px;
+}
+
+a {
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  gap: 20px;
+  display: flex;
+  padding-left: 40px;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  transition: 0.5s;
+  padding-top: 10px;
+  gap: 10px;
+}
+
+.logo {
+  width: 350px;
+  height: 200px;
+  top: 0px;
+  visibility: visible;
+  position: relative;
+  right: 200px;
+  animation: logoa 0.2s 1;
+}
+@keyframes logoa {
+  0%{
+    opacity: 0%;
+  }
+  98%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
+
+#sp-sh{
+  position: relative;
+  animation: ss 0.5s 1;
+}
+@keyframes ss {
+  0%{
+    opacity: 0%;
+  }
+  98%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
+#sp-el{
+  position: relative;
+  animation: se 0.6s 1;
+}
+@keyframes se {
+  0%{
+    opacity: 0%;
+  }
+  98%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+   }
+}
+
+#sign{
+  position: relative;
+  animation: sign 0.9s 1;
+}
+@keyframes sign {
+  0%{
+    opacity: 0%;
+  }
+  98%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
+.div2{
+  position: relative;
+  left: 300px;
+} 
+
+a:hover {
+  color: rgb(235, 152, 152);
+}
+
+a:active {
+  color: blanchedalmond;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.link:hover{
+
+}
+
+div{
+  display: flex;
+
+  align-items: center;
+}
+
+
+
+
+.text1{
+  padding: 3px;
+  color: aliceblue;
+  margin-top: 400px;
+  font-size: 40px;
+  margin-left: 300px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+input{
+  margin-top:40px;
+  margin-left: 390px;
+  font-size: 30px;
+
+  transition: 1s;
+}
+
+
+.text2{
+  margin-left: 300px;
+  color: aliceblue;
+  font-size: 40px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+input:hover{
+  color: white;
+  background: black;
+}
+
+.page2-img{
+  margin-top: 281px;
+  width: 9000px;
+  z-index: -1;
+}
+
+.page2{
+  width: 1903px;
+  z-index: -1;
+}
+
+.text3{
+  color: aliceblue;
+  font-family: "Noto Sans", sans-serif;
+  margin-left: 300px;
+  margin-top: -400px;
+  z-index: 4;
+  font-size: 30px
+}
+
+.page3{
+  position: relative;
+  top: 285px;
+  width: 1903px;
+  z-index: -1;
+}
+
+.page3-img{
+  width: 1903px;
+  z-index: -1;
+  
+}
+
+.text4{
+  color: aliceblue;
+  font-family: "Noto Sans", sans-serif;
+  margin-left: 300px;
+  margin-top: -400px;
+  z-index: 4;
+  font-size: 30px
+}
+
+.text5{
+  color: aliceblue;
+    font-family: "Noto Sans", sans-serif;
+  margin-left: 150;
+}
+
+
+input{
+  background: none;
+  color: white;
+  border: none;
+}
+
+
+
+
+  
+

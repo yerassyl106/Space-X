@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign up.css">
+</head>
+<body>
+    <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>Тіркелу</h1>
+          <p>Тіркелгі жасау үшін осы пішінді толтырыңыз.</p>
+          <hr>
+      
+          <label for="email"><b>Емайл</b></label>
+          <input type="text" placeholder="Емайл жазу " name="email" required>
+      
+          <label for="psw"><b>Құпия сөз</b></label>
+          <input type="password" placeholder="Құпиясөзді жазу" name="psw" required>
+      
+          <label for="psw-repeat"><b>Құпия сөзді қайталаңыз</b></label>
+          <input type="password" placeholder="Құпия сөзді қайталаңыз" name="psw-repeat" required>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Есте сақтау
+          </label>
+      
+          <p>Тіркелгіні жасау арқылы сіз біздің шарттармен келісесіз<a href="#" style="color:dodgerblue">Шарттар мен құпиялылық</a>.</p>
+      
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Бас тарту</button>
+            <button type="submit" class="signupbtn">Тіркелу</button>
+          </div>
+        </div>
+      </form>
+</body>
+</html>
